@@ -18,17 +18,17 @@
 # 3.Webpack性能优化
 
  1. 优化构建速度
-		- 缩小文件的搜索范围
-			- resolve字段，alias、extensions
-			- loader的test、include、exclude
-			- module.noParse
-		- DllPlugin
-		- HappyPack
-    - ParallelUglifyPlugin
+	- 缩小文件的搜索范围
+		- resolve字段，alias、extensions
+		- loader的test、include、exclude
+		- module.noParse
+	- DllPlugin
+	- HappyPack
+  - ParallelUglifyPlugin
  2. 优化输出质量
-		- definePlugin
-		- 压缩代码
+	- definePlugin
+	- 压缩代码
  3. 加速网络资源
-		- CDN
-		- 提取公共代码
+	- CDN
+	- 提取公共代码
  4. 切割代码按需加载
