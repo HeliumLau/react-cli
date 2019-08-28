@@ -4,9 +4,9 @@ import './Home.less';
 
 class Home extends React.Component {
 	render () {
-    	return (
-  			<div>Hello world</div>
-  	);
+		return (
+			<div>Hello world</div>
+		);
 	}
 }
 
