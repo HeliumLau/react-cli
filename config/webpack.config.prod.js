@@ -56,7 +56,7 @@ module.exports = {
 		// https://github.com/facebookincubator/create-react-app/issues/290
 		// `web` extension prefixes have been added for better support
 		// for React Native Web.
-		extensions: ['.js', '.json', '.jsx'],
+		extensions: ['.js', '.json', '.jsx', '.ts', '.tsx'],
 		alias: alias,
 		plugins: [
 			// Prevents users from importing files from outside of src/ (or node_modules/).
@@ -104,6 +104,17 @@ module.exports = {
 				include: paths.appSrc,
 				exclude: /node_modules/,
 				loader: 'happypack/loader?id=happyBabel',
+			},
+			{
+				test: /\.ts(x?)$/,
+				use: [
+					{
+						loader: 'awesome-typescript-loader',
+						options: {
+
+						}
+					}
+				]
 			},
 			{
 				test: /\.less$/i,
