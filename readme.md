@@ -15,7 +15,7 @@
  - [x] url/img loader
  - [x] postcss
  - [ ] typescript
- - [ ] commitizen提交规范
+ - [x] commitizen提交规范
 
 # 3.Webpack性能优化
 
